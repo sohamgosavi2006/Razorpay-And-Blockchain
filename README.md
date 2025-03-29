@@ -47,18 +47,5 @@ Web3 represents the next generation of the internet, enabling **decentralized ap
 - Each transaction (fiat or crypto) generates a **Transaction ID (Tx ID)**.
 - This ID is stored in the **transaction history log** for tracking and verification.
 
-## 🚀 Getting Started
-### **1️⃣ Install Dependencies**
-```bash
-npm install -g http-server
-```
-### **2️⃣ Run the Project**
-```bash
-npx http-server -p 8000
-```
-### **3️⃣ Connect to MetaMask**
-- Install MetaMask & switch to **Sepolia Testnet**.
-- Fund your wallet with **test ETH** from a Sepolia faucet.
-- Start making transactions!
 
 

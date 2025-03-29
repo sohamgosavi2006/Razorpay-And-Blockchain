@@ -1,0 +1,81 @@
+body {
+    background-color: #f5f7fa;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.sidebar {
+    background-color: #ffffff;
+    border-right: 1px solid #eee;
+    height: 100vh;
+}
+
+.card {
+    border: none;
+    border-radius: 10px;
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+    padding: 10px;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+.main-content {
+    background-color: #f5f7fa;
+}
+
+.table {
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+.table-hover tbody tr:hover {
+    background-color: #f8f9fa;
+}
+
+#blockchainStatus {
+    font-size: 0.9em;
+}
+
+.text-success {
+    color: #28a745 !important;
+}
+
+.text-danger {
+    color: #dc3545 !important;
+}
+
+.blockchain-card {
+    background-color: #f9f9f9;
+    border: 1px solid #e9ecef;
+    margin: 5px 0;
+}
+
+.blockchain-card .card-title {
+    font-size: 1em;
+    margin-bottom: 8px;
+}
+
+.blockchain-card .card-text {
+    font-size: 0.9em;
+    line-height: 1.4;
+}
+
+@media (max-width: 768px) {
+    .sidebar {
+        height: auto;
+        border-right: none;
+        border-bottom: 1px solid #eee;
+    }
+}
